@@ -1,7 +1,10 @@
-<html>
-<head><title>First JSP</title></head>
-<body>
-  <%
+<%= new java.util.Date() %>
+<%= new java.util.Date() %>
+<%= new java.util.Date() %>
+<%= new java.util.Date() %>
+<%= new java.util.Date() %>
+
+<%
     double num = Math.random();
     if (num > 0.95) {
   %>
@@ -13,6 +16,3 @@
   <%
     }
   %>
-  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
-</body>
-</html>
