@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 asd
 git hub
 =======
 change
+>>>>>>> origin/master
+=======
+change
+change1
 >>>>>>> origin/master
