@@ -5,9 +5,36 @@
 <head>
   <meta charset="UTF-8">
     <title>register</title>
-    <link href="12101609_정헌준.css" rel="stylesheet" type="type/css"> <!--css파일 링크-->
+<style type="text/css">
+    p{
+        color: green;
+    }
+    .son{
+       color: red; 
+        
+    }
+    #son{
+        color: blue;
+    }
+    div{
+        background-color: gray;
+        padding:30px;
+        margin:30px;
+    }
+
+</style>
+
 </head>
 <body>
+    <div id="1">
+        <div id="2"></div>
+    </div>
+    <p class="son" id="son">1</p>
+    <p class="son">2</p>
+    <p id="son">3</p>
+    <p id="son">4</p>
+    <p >5</p>
+
     <p>회원가입</p> <!--단락-->
     <hr /> <!--밑줄-->
     <form name="register" action="sss.html" method="get"> <!--get방식으로 전송-->
@@ -15,7 +42,9 @@
             <tr>
                 <td>아이디</td>
                 <td>
+                 <div data-role="main" class="ui-content">
                     <input type="text" name="id" required autofocus/> <!--입력되지않을시확인x , autofocus-->
+                    </div>
                 </td>
             </tr>
 
