@@ -1,3 +1,3 @@
 # webs_app
 
-WEbS_MBILE_APP
+WEbS_MOBILE_APP
